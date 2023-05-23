@@ -11,3 +11,8 @@ class JobDetail(models.Model):
     job= models.ForeignKey(Jobs, related_name='job_details', on_delete=models.CASCADE)
     details=models.TextField(max_length=20000)
     bold=models.BooleanField(default=False)
+    
+    
+    class jobcategories(models.Model):
+        cat1 = models.models.CharField(max_length=1000)
+        cat2 = models.models.CharField(max_length=1000)
