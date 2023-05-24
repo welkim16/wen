@@ -13,6 +13,5 @@ class JobDetail(models.Model):
     bold=models.BooleanField(default=False)
     
     
-    class jobcategories(models.Model):
-        cat1 = models.models.CharField(max_length=1000)
-        cat2 = models.models.CharField(max_length=1000)
+    class jobcat(models.Model):
+        catjob= models.CharField(max_length=10000)
