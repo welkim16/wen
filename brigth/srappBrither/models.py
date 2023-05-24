@@ -14,4 +14,4 @@ class JobDetail(models.Model):
     
     
     class jobcat(models.Model):
-        catjob= models.CharField(max_length=10000)
+        catjob= models.CharField()
